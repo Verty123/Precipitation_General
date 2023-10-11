@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1201.0, 929.0 ],
+		"rect" : [ 34.0, 94.0, 637.0, 726.0 ],
 		"openrect" : [ 0.0, 0.0, 637.0, 221.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"showontab" : 1,
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-57",
@@ -45,7 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.0, 81.0, 36.0, 48.0 ],
+					"patching_rect" : [ 409.0, 81.0, 36.0, 47.0 ],
 					"text" : "cinematique"
 				}
 
@@ -81,10 +83,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 852.0, 303.0, 150.0, 34.0 ],
+					"patching_rect" : [ 852.0, 303.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 479.0, 20.0, 150.0, 34.0 ],
+					"presentation_rect" : [ 479.0, 20.0, 150.0, 33.0 ],
 					"text" : "@ Marie et Manon, vous prenez les 5"
 				}
 
@@ -246,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.0, 76.0, 50.0, 77.0 ],
+					"patching_rect" : [ 658.0, 76.0, 50.0, 76.0 ],
 					"text" : "335. 335. 335. 335. 335."
 				}
 
@@ -346,10 +348,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 452.0, 76.0, 150.0, 89.0 ],
+					"patching_rect" : [ 452.0, 76.0, 150.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 452.0, 76.0, 150.0, 89.0 ],
+					"presentation_rect" : [ 452.0, 76.0, 150.0, 87.0 ],
 					"text" : "Numéro des modules :\n0 : Vincent\n1 : Lucas & Louan\n2 : Thomas\n3 : Alba\n4 : Venance"
 				}
 
@@ -397,10 +399,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.0, 18.0, 150.0, 34.0 ],
+					"patching_rect" : [ 386.0, 18.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 142.0, 20.0, 150.0, 34.0 ],
+					"presentation_rect" : [ 142.0, 20.0, 150.0, 33.0 ],
 					"text" : "0 : auto\n1 : manuel"
 				}
 
@@ -521,7 +523,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 81.0, 150.0, 48.0 ],
+					"patching_rect" : [ 255.0, 81.0, 150.0, 47.0 ],
 					"text" : "0 fonctionnement normal\n1 : fonctionnement dégradé"
 				}
 
@@ -562,10 +564,10 @@
 					"patching_rect" : [ 255.0, 139.0, 144.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "slider",
 							"parameter_mmax" : 1.0,
 							"parameter_shortname" : "slider",
-							"parameter_type" : 0,
-							"parameter_longname" : "slider"
+							"parameter_type" : 0
 						}
 
 					}
