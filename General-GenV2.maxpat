@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 204.0, 143.0, 896.0, 940.0 ],
+		"rect" : [ 26.0, 85.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"showontab" : 1,
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-6",
@@ -71,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 398.703014016151428, 878.0, 174.106186032295227, 22.0 ],
-					"text" : "4 0 0 0 0"
+					"text" : "-100 -100 -100 -100 -100"
 				}
 
 			}
@@ -131,7 +130,7 @@
 					"patching_rect" : [ 54.301045298576355, 836.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 177.0, 66.0, 22.0 ],
-					"text" : "0.04"
+					"text" : "-1."
 				}
 
 			}
@@ -145,7 +144,7 @@
 					"patching_rect" : [ 173.781750917434692, 836.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 158.565587043762207, 177.0, 67.0, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -159,7 +158,7 @@
 					"patching_rect" : [ 114.5, 836.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.801045298576355, 177.0, 67.0, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -173,7 +172,7 @@
 					"patching_rect" : [ 230.151731967926025, 836.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 232.004741311073303, 177.0, 60.0, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -247,7 +246,7 @@
 					"patching_rect" : [ 288.781750917434692, 836.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 295.5, 177.0, 65.0, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -258,10 +257,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 902.0, 44.5, 150.0, 33.0 ],
+					"patching_rect" : [ 902.0, 44.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 370.0, 197.998400092124939, 150.0, 33.0 ],
+					"presentation_rect" : [ 370.0, 197.998400092124939, 150.0, 34.0 ],
 					"text" : "-1 = recover\n+1 = degradation"
 				}
 
@@ -629,8 +628,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -663,7 +662,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -780,8 +778,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -814,7 +812,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -927,8 +924,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 732.0, 314.0, 32.0, 22.0 ],
-					"text" : "0.01"
+					"patching_rect" : [ 732.0, 314.0, 39.0, 22.0 ],
+					"text" : "0.003"
 				}
 
 			}
@@ -975,7 +972,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 564.0, 354.0, 150.0, 33.0 ],
+					"patching_rect" : [ 564.0, 354.0, 150.0, 34.0 ],
 					"text" : "duree de la cinematique finale"
 				}
 
@@ -999,7 +996,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.690799951553345, 388.0, 151.0, 47.0 ],
+					"patching_rect" : [ 720.690799951553345, 388.0, 151.0, 48.0 ],
 					"text" : "incrementation ou decrementation de base a chaque tic d'horloge"
 				}
 
@@ -1023,7 +1020,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.0, 390.007656335830688, 150.0, 47.0 ],
+					"patching_rect" : [ 333.0, 390.007656335830688, 150.0, 48.0 ],
 					"text" : "Nombre de fois qu'un module a le droit de se soigner"
 				}
 
@@ -1047,7 +1044,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 329.125994205474854, 158.899481296539307, 105.0, 60.0 ],
+					"patching_rect" : [ 329.125994205474854, 158.899481296539307, 105.0, 62.0 ],
 					"text" : "seuil a partir du quel un module peut contaminer ses voisins"
 				}
 
@@ -1059,7 +1056,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 476.0, 86.0, 78.0, 60.0 ],
+					"patching_rect" : [ 476.0, 86.0, 78.0, 62.0 ],
 					"text" : "probabilite qu'un module se soigne 0-1"
 				}
 
@@ -1071,7 +1068,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 617.0, 172.690486669540405, 150.0, 47.0 ],
+					"patching_rect" : [ 617.0, 172.690486669540405, 150.0, 48.0 ],
 					"text" : "probabilite d'une nouvelle degradation quand tout est eteint 0-1"
 				}
 
@@ -1190,7 +1187,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 398.703014016151428, 548.244022011756897, 50.0, 22.0 ],
-					"text" : "1."
+					"text" : "-1."
 				}
 
 			}
@@ -1226,7 +1223,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 256.978286981582642, 457.914422392845154, 50.0, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -1238,7 +1235,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 203.267821311950684, 457.914422392845154, 50.0, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -1250,7 +1247,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 134.0, 457.914422392845154, 29.5, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -1262,7 +1259,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 77.549631357192993, 457.914422392845154, 32.0, 22.0 ],
-					"text" : "0."
+					"text" : "-1."
 				}
 
 			}
@@ -1285,8 +1282,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 41.713755130767822, 269.306890368461609, 69.0, 22.0 ],
-					"text" : "metro 1000"
+					"patching_rect" : [ 41.713755130767822, 269.306890368461609, 63.0, 22.0 ],
+					"text" : "metro 100"
 				}
 
 			}
@@ -1324,7 +1321,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.71373438835144, 457.914422392845154, 50.0, 22.0 ],
-					"text" : "0.04"
+					"text" : "-1."
 				}
 
 			}
@@ -1339,14 +1336,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 0.0, 26.0, 896.0, 914.0 ],
+						"rect" : [ 42.0, 85.0, 896.0, 914.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1374,7 +1371,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -1478,7 +1474,7 @@
 								"box" : 								{
 									"code" : "//Param\r\nParam re_set(0., min = 0, max = 1);\r\nParam heal_prob(0.9);\r\nParam neighbour_impact(0.01);\r\nParam growth_speed(0.01);\r\nParam contamination_threshold(0.7);\r\nParam new_degradation_prob(0.9);\r\nParam heal_max_count(3);\r\nParam cinematique_duration(3000);\r\nParam metro_value(100);\r\n//Param cinematique(0);\r\n\r\n//valeur de degradation\r\nHistory prev1(0);\r\nHistory prev2(0);\r\nHistory prev3(0);\r\nHistory prev4(0);\r\nHistory prev5(0);\r\n\r\n//etat : -1 = heal, 1=degradation \r\nHistory state1(-1);\r\nHistory state2(-1);\r\nHistory state3(1);\r\nHistory state4(-1);\r\nHistory state5(-1);\r\n\r\n//compteur de heal, max 3\r\nHistory heal_count1(0);\r\nHistory heal_count2(0);\r\nHistory heal_count3(0);\r\nHistory heal_count4(0);\r\nHistory heal_count5(0);\r\n\r\nHistory cinematique(0);\r\nHistory cinematique_count(0);\r\n\r\n\r\n\r\nif ((prev1 == 1 && prev2==1 && prev3==1 && prev4 == 1 && prev5 ==1)||cinematique==1)\r\n{\r\nprev1=1; prev2=1; prev3=1;prev4=1;prev5=1; \r\nout1=2;\r\nout2=2;\r\nout3=2;\r\nout4=2;\r\nout5=2;\r\ncinematique=2;}\r\n\r\nif(cinematique==2){\r\ncinematique_count = cinematique_count+1;\r\n}\r\n\r\nif (re_set==1 || (cinematique_count>(cinematique_duration/metro_value))){\r\nout6 = 0;\r\nout1 = -1; out2=-1;  out3=-1; out4 = -1; out5 = -1;\r\nprev1=-1; prev2=-1; prev3=-1;prev4=-1;prev5=-1; \r\nstate1=-1; state2=-1; state3=-1; state4 = -1; state5 = -1;\r\nheal_count1 = 0; heal_count2 = 0; heal_count3=0; heal_count4=0; healcount5 = 0;\r\ncinematique=0; cinematique_count = 0;}\r\n//set \r\n\r\n\r\nif(cinematique != 2){\r\n//Healing\r\n\r\nif (heal_count1 < heal_max_count && noise()>heal_prob && state1 == 1){state1 = -1; heal_count1 = heal_count1 +1;}\r\nif (heal_count2 < heal_max_count && noise()>heal_prob && state2 == 1){state2 = -1; heal_count2 = heal_count2 +1;}\r\nif (heal_count3 < heal_max_count && noise()>heal_prob && state3 == 1){state3 = -1; heal_count3 = heal_count3 +1;}\r\nif (heal_count4 < heal_max_count && noise()>heal_prob && state4 == 1){state4 = -1; heal_count4 = heal_count4 +1;}\t\r\nif (heal_count5 < heal_max_count && noise()>heal_prob && state5 == 1){state5 = -1; heal_count5 = heal_count5 +1;}\r\n\r\n//Degradation\r\n\r\n\r\n\r\n\r\n\r\n//declenchement d'une nouvelle degradation si tout est eteint\r\nif(prev1==0 && prev2==0 && prev3==0 && prev4==0 && prev5==0){\r\n\t//valeur entre 1 et 6\r\nrnd= noise(); \r\nrnd = floor((rnd + 1) * 2);\r\nif (rnd == 0){state1 = 1;}\nif (rnd == 1){state2 = 1;}\nif (rnd == 2){state3 = 1;}\nif (rnd == 3){state4 = 1;}\nif (rnd == 4){state5 = 1;}\r\n\r\n}\r\n\r\n\r\n\r\n//chance d'entrainer une nouvele degradation si les voisins sont degrades et superieur au seuil de contamination\r\n\r\n//state1\r\nif(((prev5 > contamination_threshold) || (prev2 > contamination_threshold)) && noise() > new_degradation_prob)\r\n{state1 = 1;}\r\n//state2\r\nif(((prev1 > contamination_threshold) || (prev3 > contamination_threshold)) && noise() > new_degradation_prob)\r\n{state2 = 1;}\r\n//state3\r\nif(((prev2 > contamination_threshold) || (prev4 > contamination_threshold)) && noise() > new_degradation_prob)\r\n{state3 = 1;}\r\n//state4\r\nif(((prev3 > contamination_threshold) || (prev5 > contamination_threshold)) && noise() > new_degradation_prob)\r\n{state4 = 1;}\r\n//state5\r\nif(((prev4 > contamination_threshold) || (prev1 > contamination_threshold)) && noise() > new_degradation_prob)\r\n{state5 = 1;}\r\n\r\n\r\nincr1 = growth_speed * state1;\r\nincr2 = growth_speed * state2;\r\nincr3 = growth_speed * state3;\r\nincr4 = growth_speed * state4;\r\nincr5 = growth_speed * state5;\r\n\r\nvalue1 = prev1 + (incr1);\r\nvalue2 = prev2 + (incr2);\r\nvalue3 = prev3 + (incr3);\r\nvalue4 = prev4 + (incr4);\r\nvalue5 = prev5 + (incr5);\r\n\r\noutput1 = clamp(value1, 0., 1.);\r\noutput2 = clamp(value2, 0., 1.);\r\noutput3 = clamp(value3, 0., 1.);\r\noutput4 = clamp(value4, 0., 1.);\r\noutput5 = clamp(value5, 0., 1.);\r\n\r\nif(re_set==0){\r\nout1 = output1;\r\nout2 = output2;\r\nout3 = output3;\r\nout4 = output4;\r\nout5 = output5;\r\n}\r\nout6 = state1;\r\nout7 = state2;\r\nout8 = state3;\r\nout9 = state4;\r\nout10 = state5;\r\n\r\n\r\nprev1 = output1;\r\nprev2 = output2;\r\nprev3 = output3;\r\nprev4 = output4;\r\nprev5 = output5;\r\n}\r\n\r\n",
 									"fontface" : 0,
-									"fontname" : "<Monospaced>",
+									"fontname" : "Lucida Console",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "codebox",
